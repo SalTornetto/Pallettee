@@ -5,7 +5,7 @@ let palette2 = "FF000000FF000000FF757575";
 let palette3 = "FF00FF5555556666666666666666666666666666666666666666666666666666666666666";
 let plaette4 = "";
 
-displayPalette(palette3);
+displayPalette(palette2);
 
 //document.getElementById("colorPallete").innerHTML = " ";
 
@@ -21,7 +21,7 @@ function displayPalette(palette){
             text += palette.charAt((i*6)+j); 
         }
             output += "<td id = color" + i+1 + " style='background-color: #" + text + "'> </td>";
-            actions += '<td><div class=""><div class="text-center"><a class="" onclick=deleteColor('+ i + ',"' + palette +'") href="#">Delete Color</a></div></div></td>';
+            actions += '<td><div class=""><div class="text-center"><a class="text-dark" onclick=deleteColor('+ i + ',"' + palette +'") href="#">Delete Color</a></div></div></td>';
             text = "";   
     }
     console.log(output);
