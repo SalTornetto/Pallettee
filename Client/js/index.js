@@ -3,9 +3,10 @@
 let palette1 = "FF000000FF000000FF";
 let palette2 = "FF000000FF000000FF757575";
 let palette3 = "FF00FF5555556666666666666666666666666666666666666666666666666666666666666";
-let plaette4 = "";
+let palette4 = "";
+let palette5 = "FF000000FF000000FF757575FF000000FF000000FF757575000000"
 
-displayPalette(palette2);
+displayPalette(palette5);
 
 //document.getElementById("colorPallete").innerHTML = " ";
 
@@ -24,16 +25,23 @@ function displayPalette(palette){
             actions += '<td><div class=""><div class="text-center"><a class="text-dark" onclick=deleteColor('+ i + ',"' + palette +'") href="#">Delete Color</a></div></div></td>';
             text = "";   
     }
+
+
+    if((size/6)<9){
+        actions += '<td><div class=""><div class="text-center"><a class="text-dark" onclick=addColor("'+palette+'") href="#">Add Color</a></div></div></td>';
+    }
+
     console.log(output);
     console.log(actions);
     document.getElementById("colorPalette").innerHTML = output;
     document.getElementById("colorActions").innerHTML = actions;
     //console.log((size+1)/6);
+    
 }
 
 
-function addColor(){
-
+function addColor(palette){
+    displayPalette(palette + "FFFFFF");
 }
 
 function deleteColor(colorID, palette){
@@ -44,9 +52,7 @@ function deleteColor(colorID, palette){
             for (let j = 0; j < 6; j++) {
                 text += palette.charAt((i*6)+j); 
             }
-
         }
-        
     }
     displayPalette(text);
 }
