@@ -4,9 +4,10 @@ let palette1 = "FF000000FF000000FF";
 let palette2 = "FF000000FF000000FF757575";
 let palette3 = "FF00FF5555556666666666666666666666666666666666666666666666666666666666666";
 let palette4 = "";
-let palette5 = "FF000000FF000000FF757575FF000000FF000000FF757575000000"
+let palette5 = "FF000000FF000000FF757575FF000000FF000000FF757575000000";
+let palette6 = "00ff2a358fb6d1d1d1";
 
-displayPalette(palette1);
+displayPalette(palette6);
 
 //document.getElementById("colorPallete").innerHTML = " ";
 
