@@ -1,3 +1,13 @@
-table, th, td {
+/* table, th, td {
     border: 1px solid black;
-  }
+  } */
+/* 
+div {
+  border: 1px solid rgb(255, 0, 0);
+} */
+
+input[type="color"]
+{
+    background: transparent;
+    border: none;
+}
