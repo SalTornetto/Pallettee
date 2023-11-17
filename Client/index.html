@@ -1,3 +1,5 @@
+<!-- FILEPATH: /g:/My Drive/VSC/Code/FA2023/CPS 4301/Project/index.html -->
+<!-- This is an HTML file that contains the layout and structure of a web page for a color palette generator. It includes a header with a navigation bar, a title, and an image upload button. The uploaded image is displayed on the page, and a color palette is generated from the image. The color palette is displayed below the image. The file also includes links to external CSS and JavaScript files. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,12 +10,13 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
 
+    <!-- Header with navigation bar, title, and image upload button -->
     <header>
         <div class="px-3 py-2 text-dark border-bottom">
           <div class="container">
@@ -49,21 +52,28 @@
               </ul>
             </div>
           </div>
+        <div>
+            <h1>Color Palette Generator</h1>
+            <input type="file" id="imageInput" accept="image/*" onchange="generateColorPalette()">
+            <div id="colorPalette"></div>
+            <img id="uploadedImage" alt="Uploaded Image">
+        
+        
         </div>
+        
     </header>
 
-
-<table style="width:100%">
-    <tr id = "colorPalette" style='height:250pt'>
-    </tr>
-    <tr id = "colorActions" style='height:50pt'>
-    </tr>
-</table>
+<!-- 
+    <table style="width:100%">
+        <tr id = "colorPalette" style='height:250pt'>
+        </tr>
+        <tr id = "colorActions" style='height:50pt'>
+        </tr>
+    </table>
+-->
 
 <br>
 <!-- <input type="color" id="html5colorpicker" value="#FFFFFF" style="width:85%; height:250pt;"> -->
-  </body>
-</html>
 
-
-<script src="../js/index.js"></script>
+<!-- External JavaScript file -->
+<script src="script.js"></script>
