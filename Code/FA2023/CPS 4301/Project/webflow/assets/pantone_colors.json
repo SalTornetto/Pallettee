@@ -12,7 +12,7 @@
     {
       "pantone": "11-0601",
       "name": "bright-white",
-      "hex": "f4f5f0"
+      "hex": "f4f5ff"
     },
     {
       "pantone": "11-4201",
@@ -507,12 +507,12 @@
     {
       "pantone": "17-1113",
       "name": "coriander",
-      "hex": 938772
+      "hex": "938772"
     },
     {
       "pantone": "17-1009",
       "name": "dune",
-      "hex": 998978
+      "hex": "998978"
     },
     {
       "pantone": "17-1118",
@@ -557,7 +557,7 @@
     {
       "pantone": "17-1410",
       "name": "pine-bark",
-      "hex": 827064
+      "hex": "827064"
     },
     {
       "pantone": "14-0002",
@@ -592,7 +592,7 @@
     {
       "pantone": "18-0513",
       "name": "bungee-cord",
-      "hex": 696156
+      "hex": "696156"
     },
     {
       "pantone": "13-0401",
@@ -697,7 +697,7 @@
     {
       "pantone": "18-0510",
       "name": "castor-gray",
-      "hex": 646762
+      "hex": "646762"
     },
     {
       "pantone": "14-4102",
@@ -802,7 +802,7 @@
     {
       "pantone": "16-5904",
       "name": "wrought-iron",
-      "hex": 9.99e+100
+      "hex": "999e98"
     },
     {
       "pantone": "16-3801",
@@ -822,12 +822,12 @@
     {
       "pantone": "18-0503",
       "name": "gargoyle",
-      "hex": 686767
+      "hex": "686767"
     },
     {
       "pantone": "18-0000",
       "name": "smoked-pearl",
-      "hex": 656466
+      "hex": "656466"
     },
     {
       "pantone": "18-5105",
@@ -862,7 +862,7 @@
     {
       "pantone": "18-5203",
       "name": "pewter",
-      "hex": 666564
+      "hex": "666564"
     },
     {
       "pantone": "18-0201",
@@ -887,12 +887,12 @@
     {
       "pantone": "17-0000",
       "name": "frost-gray",
-      "hex": 848283
+      "hex": "848283"
     },
     {
       "pantone": "18-3905",
       "name": "excalibur",
-      "hex": 676168
+      "hex": "676168"
     },
     {
       "pantone": "18-0403",
@@ -927,7 +927,7 @@
     {
       "pantone": "19-0820",
       "name": "canteen",
-      "hex": null
+      "hex": "5e5347"
     },
     {
       "pantone": "18-0615",
@@ -982,7 +982,7 @@
     {
       "pantone": "18-1306",
       "name": "iron",
-      "hex": 736460
+      "hex": "736460"
     },
     {
       "pantone": "19-3803",
@@ -1042,7 +1042,7 @@
     {
       "pantone": "19-4305",
       "name": "pirate-black",
-      "hex": 363838
+      "hex": "363838"
     },
     {
       "pantone": "19-4007",
@@ -1212,12 +1212,12 @@
     {
       "pantone": "17-1022",
       "name": "kelp",
-      "hex": 988467
+      "hex": "988467"
     },
     {
       "pantone": "17-1028",
       "name": "antique-bronze",
-      "hex": 907954
+      "hex": "907954"
     },
     {
       "pantone": "17-0935",
@@ -1247,7 +1247,7 @@
     {
       "pantone": "18-1048",
       "name": "monks-robe",
-      "hex": 704822
+      "hex": "704822"
     },
     {
       "pantone": "18-1033",
@@ -1257,7 +1257,7 @@
     {
       "pantone": "18-1031",
       "name": "toffee",
-      "hex": 755139
+      "hex": "755139"
     },
     {
       "pantone": "18-1130",
@@ -1272,7 +1272,7 @@
     {
       "pantone": "18-1124",
       "name": "partridge",
-      "hex": 725440
+      "hex": "725440"
     },
     {
       "pantone": "19-1230",
@@ -1307,7 +1307,7 @@
     {
       "pantone": "18-0920",
       "name": "kangaroo",
-      "hex": 7.25e+45
+      "hex": "725e45"
     },
     {
       "pantone": "18-0928",
@@ -1327,12 +1327,12 @@
     {
       "pantone": "19-0617",
       "name": "teak",
-      "hex": 655341
+      "hex": "655341"
     },
     {
       "pantone": "18-1015",
       "name": "shitake",
-      "hex": 736253
+      "hex": "736253"
     },
     {
       "pantone": "18-1016",
@@ -1377,7 +1377,7 @@
     {
       "pantone": "19-1118",
       "name": "chestnut",
-      "hex": 584039
+      "hex": "584039"
     },
     {
       "pantone": "19-1015",
@@ -1392,7 +1392,7 @@
     {
       "pantone": "19-1016",
       "name": "java",
-      "hex": 433331
+      "hex": "433331"
     },
     {
       "pantone": "19-0915",
@@ -1497,7 +1497,7 @@
     {
       "pantone": "17-1321",
       "name": "woodsmoke",
-      "hex": 947764
+      "hex": "947764"
     },
     {
       "pantone": "17-1319",
@@ -1532,12 +1532,12 @@
     {
       "pantone": "17-1322",
       "name": "burro",
-      "hex": 947764
+      "hex": "947764"
     },
     {
       "pantone": "17-1417",
       "name": "beaver-fur",
-      "hex": 997867
+      "hex": "997867"
     },
     {
       "pantone": "14-1213",
@@ -1852,7 +1852,7 @@
     {
       "pantone": "19-1241",
       "name": "tortoise-shell",
-      "hex": 754734
+      "hex": "754734"
     },
     {
       "pantone": "16-1332",
@@ -1942,7 +1942,7 @@
     {
       "pantone": "18-1320",
       "name": "clove",
-      "hex": 876155
+      "hex": "876155"
     },
     {
       "pantone": "18-1229",
@@ -1957,7 +1957,7 @@
     {
       "pantone": "18-1137",
       "name": "rawhide",
-      "hex": 8.65e+51
+      "hex": "865e51"
     },
     {
       "pantone": "18-1433",
@@ -1982,7 +1982,7 @@
     {
       "pantone": "18-1238",
       "name": "rustic-brown",
-      "hex": 855141
+      "hex": "855141"
     },
     {
       "pantone": "18-1230",
@@ -1992,7 +1992,7 @@
     {
       "pantone": "19-1333",
       "name": "sequoia",
-      "hex": 804839
+      "hex": "804839"
     },
     {
       "pantone": "19-1228",
@@ -2002,7 +2002,7 @@
     {
       "pantone": "19-1235",
       "name": "brunette",
-      "hex": 664238
+      "hex": "664238"
     },
     {
       "pantone": "19-1320",
@@ -2052,7 +2052,7 @@
     {
       "pantone": "19-1321",
       "name": "rum-raisin",
-      "hex": 583432
+      "hex": "583432"
     },
     {
       "pantone": "19-1322",
@@ -2062,7 +2062,7 @@
     {
       "pantone": "19-1317",
       "name": "bitter-chocolate",
-      "hex": 503130
+      "hex": "503130"
     },
     {
       "pantone": "18-1425",
@@ -2077,7 +2077,7 @@
     {
       "pantone": "19-1245",
       "name": "arabian-spice",
-      "hex": 884332
+      "hex": "884332"
     },
     {
       "pantone": "19-1325",
@@ -2087,7 +2087,7 @@
     {
       "pantone": "19-1338",
       "name": "russet-brown",
-      "hex": 743332
+      "hex": "743332"
     },
     {
       "pantone": "19-1331",
@@ -2097,7 +2097,7 @@
     {
       "pantone": "19-1327",
       "name": "andorra",
-      "hex": 603535
+      "hex": "603535"
     },
     {
       "pantone": "11-0510",
@@ -2612,12 +2612,12 @@
     {
       "pantone": "17-0942",
       "name": "medal-bronze",
-      "hex": 977547
+      "hex": "977547"
     },
     {
       "pantone": "18-0939",
       "name": "cumin",
-      "hex": 927240
+      "hex": "927240"
     },
     {
       "pantone": "19-1034",
@@ -3487,7 +3487,7 @@
     {
       "pantone": "18-1442",
       "name": "red-ochre",
-      "hex": 913832
+      "hex": "913832"
     },
     {
       "pantone": "18-1531",
@@ -4292,7 +4292,7 @@
     {
       "pantone": "19-1862",
       "name": "jester-red",
-      "hex": null
+      "hex": "98243a"
     },
     {
       "pantone": "19-1656",
@@ -4312,12 +4312,12 @@
     {
       "pantone": "19-1840",
       "name": "deep-claret",
-      "hex": 973443
+      "hex": "973443"
     },
     {
       "pantone": "19-1655",
       "name": "garnet",
-      "hex": 953640
+      "hex": "953640"
     },
     {
       "pantone": "19-1543",
@@ -4327,7 +4327,7 @@
     {
       "pantone": "19-1532",
       "name": "rosewood",
-      "hex": 813639
+      "hex": "813639"
     },
     {
       "pantone": "19-1934",
@@ -4352,12 +4352,12 @@
     {
       "pantone": "19-1533",
       "name": "cowhide",
-      "hex": 884344
+      "hex": "884344"
     },
     {
       "pantone": "19-1530",
       "name": "burnt-russet",
-      "hex": null
+      "hex": "7e3940"
     },
     {
       "pantone": "19-1629",
@@ -4507,7 +4507,7 @@
     {
       "pantone": "18-1619",
       "name": "maroon",
-      "hex": 834655
+      "hex": "834655"
     },
     {
       "pantone": "18-1420",
@@ -4517,7 +4517,7 @@
     {
       "pantone": "19-2047",
       "name": "sangria",
-      "hex": 982551
+      "hex": "982551"
     },
     {
       "pantone": "19-1850",
@@ -4757,7 +4757,7 @@
     {
       "pantone": "18-3025",
       "name": "striking-purple",
-      "hex": 9.44e+89
+      "hex": "944e89"
     },
     {
       "pantone": "16-3320",
@@ -4827,7 +4827,7 @@
     {
       "pantone": "19-2430",
       "name": "purple-potion",
-      "hex": 692746
+      "hex": "692746"
     },
     {
       "pantone": "17-2617",
@@ -4862,7 +4862,7 @@
     {
       "pantone": "19-2924",
       "name": "hollyhock",
-      "hex": 823270
+      "hex": "823270"
     },
     {
       "pantone": "18-3331",
@@ -4872,12 +4872,12 @@
     {
       "pantone": "18-3324",
       "name": "dahlia",
-      "hex": 8.43e+85
+      "hex": "843e85"
     },
     {
       "pantone": "19-3336",
       "name": "sparkling-grape",
-      "hex": 773376
+      "hex": "773376"
     },
     {
       "pantone": "19-3138",
@@ -4892,7 +4892,7 @@
     {
       "pantone": "19-3230",
       "name": "grape-juice",
-      "hex": 682961
+      "hex": "682961"
     },
     {
       "pantone": "19-3022",
@@ -4957,7 +4957,7 @@
     {
       "pantone": "18-1612",
       "name": "rose-taupe",
-      "hex": 806062
+      "hex": "806062"
     },
     {
       "pantone": "18-1512",
@@ -4967,7 +4967,7 @@
     {
       "pantone": "18-1616",
       "name": "roan-rouge",
-      "hex": 885157
+      "hex": "885157"
     },
     {
       "pantone": "17-1510",
@@ -4982,7 +4982,7 @@
     {
       "pantone": "19-1606",
       "name": "raisin",
-      "hex": 524144
+      "hex": "524144"
     },
     {
       "pantone": "19-1620",
@@ -4997,12 +4997,12 @@
     {
       "pantone": "19-1518",
       "name": "puce",
-      "hex": 503938
+      "hex": "503938"
     },
     {
       "pantone": "19-1619",
       "name": "fudge",
-      "hex": 493338
+      "hex": "493338"
     },
     {
       "pantone": "15-1511",
@@ -5022,7 +5022,7 @@
     {
       "pantone": "19-1625",
       "name": "decadent-chocolate",
-      "hex": 513235
+      "hex": "513235"
     },
     {
       "pantone": "19-1521",
@@ -5042,12 +5042,12 @@
     {
       "pantone": "19-1525",
       "name": "port",
-      "hex": 663336
+      "hex": "663336"
     },
     {
       "pantone": "19-1526",
       "name": "chocolate-truffle",
-      "hex": 6.12e+37
+      "hex": "612e37"
     },
     {
       "pantone": "19-1617",
@@ -5122,7 +5122,7 @@
     {
       "pantone": "17-1612",
       "name": "mellow-mauve",
-      "hex": 996378
+      "hex": "996378"
     },
     {
       "pantone": "17-1710",
@@ -5157,7 +5157,7 @@
     {
       "pantone": "18-2109",
       "name": "grape-shake",
-      "hex": 886971
+      "hex": "886971"
     },
     {
       "pantone": "17-1511",
@@ -5167,7 +5167,7 @@
     {
       "pantone": "18-1709",
       "name": "tulipwood",
-      "hex": 805466
+      "hex": "805466"
     },
     {
       "pantone": "18-1710",
@@ -5192,7 +5192,7 @@
     {
       "pantone": "18-1613",
       "name": "renaissance-rose",
-      "hex": 865560
+      "hex": "865560"
     },
     {
       "pantone": "18-1614",
@@ -5217,7 +5217,7 @@
     {
       "pantone": "18-1411",
       "name": "plum-wine",
-      "hex": 674550
+      "hex": "674550"
     },
     {
       "pantone": "19-2311",
@@ -5227,7 +5227,7 @@
     {
       "pantone": "19-2014",
       "name": "prune",
-      "hex": 603749
+      "hex": "603749"
     },
     {
       "pantone": "19-1608",
@@ -5242,12 +5242,12 @@
     {
       "pantone": "19-2514",
       "name": "italian-plum",
-      "hex": 533146
+      "hex": "533146"
     },
     {
       "pantone": "19-2520",
       "name": "potent-purple",
-      "hex": 462639
+      "hex": "462639"
     },
     {
       "pantone": "16-3310",
@@ -5267,7 +5267,7 @@
     {
       "pantone": "18-3220",
       "name": "very-grape",
-      "hex": 927288
+      "hex": "927288"
     },
     {
       "pantone": "18-3211",
@@ -5282,12 +5282,12 @@
     {
       "pantone": "18-3013",
       "name": "berry-conserve",
-      "hex": 765269
+      "hex": "765269"
     },
     {
       "pantone": "18-3418",
       "name": "chinese-violet",
-      "hex": 8.35e+83
+      "hex": "835e83"
     },
     {
       "pantone": "18-3522",
@@ -5317,12 +5317,12 @@
     {
       "pantone": "19-2524",
       "name": "dark-purple",
-      "hex": 582147
+      "hex": "582147"
     },
     {
       "pantone": "18-3415",
       "name": "grape-jam",
-      "hex": 725671
+      "hex": "725671"
     },
     {
       "pantone": "19-3323",
@@ -5372,7 +5372,7 @@
     {
       "pantone": "19-3316",
       "name": "plum-perfect",
-      "hex": 473442
+      "hex": "473442"
     },
     {
       "pantone": "19-3619",
@@ -5402,12 +5402,12 @@
     {
       "pantone": "19-3720",
       "name": "gothic-grape",
-      "hex": 473951
+      "hex": "473951"
     },
     {
       "pantone": "19-3728",
       "name": "grape",
-      "hex": 433455
+      "hex": "433455"
     },
     {
       "pantone": "19-3617",
@@ -5422,7 +5422,7 @@
     {
       "pantone": "19-3712",
       "name": "nightshade",
-      "hex": 433748
+      "hex": "433748"
     },
     {
       "pantone": "13-3802",
@@ -5487,7 +5487,7 @@
     {
       "pantone": "18-1405",
       "name": "flint",
-      "hex": 705861
+      "hex": "705861"
     },
     {
       "pantone": "19-1624",
@@ -5522,7 +5522,7 @@
     {
       "pantone": "18-3710",
       "name": "gray-ridge",
-      "hex": 847986
+      "hex": "847986"
     },
     {
       "pantone": "18-3712",
@@ -5562,7 +5562,7 @@
     {
       "pantone": "19-3716",
       "name": "purple-plumeria",
-      "hex": 473854
+      "hex": "473854"
     },
     {
       "pantone": "14-3903",
@@ -5692,7 +5692,7 @@
     {
       "pantone": "18-3520",
       "name": "purple-heart",
-      "hex": 745587
+      "hex": "745587"
     },
     {
       "pantone": "19-3526",
@@ -5707,7 +5707,7 @@
     {
       "pantone": "18-3633",
       "name": "deep-lavender",
-      "hex": 775496
+      "hex": "775496"
     },
     {
       "pantone": "18-3531",
@@ -5722,7 +5722,7 @@
     {
       "pantone": "19-3438",
       "name": "bright-violet",
-      "hex": 784384
+      "hex": "784384"
     },
     {
       "pantone": "19-3536",
@@ -5732,7 +5732,7 @@
     {
       "pantone": "19-3540",
       "name": "purple-magic",
-      "hex": 663271
+      "hex": "663271"
     },
     {
       "pantone": "19-3220",
@@ -5757,7 +5757,7 @@
     {
       "pantone": "19-3514",
       "name": "majesty",
-      "hex": 593761
+      "hex": "593761"
     },
     {
       "pantone": "19-3528",
@@ -5772,7 +5772,7 @@
     {
       "pantone": "19-3731",
       "name": "parachute-purple",
-      "hex": 392852
+      "hex": "392852"
     },
     {
       "pantone": "13-3820",
@@ -5807,7 +5807,7 @@
     {
       "pantone": "18-3718",
       "name": "purple-haze",
-      "hex": 807396
+      "hex": "807396"
     },
     {
       "pantone": "16-3110",
@@ -5827,7 +5827,7 @@
     {
       "pantone": "17-3612",
       "name": "orchid-mist",
-      "hex": 917798
+      "hex": "917798"
     },
     {
       "pantone": "18-3513",
@@ -5882,7 +5882,7 @@
     {
       "pantone": "18-3828",
       "name": "corsican-blue",
-      "hex": 646093
+      "hex": "646093"
     },
     {
       "pantone": "18-3834",
@@ -5902,7 +5902,7 @@
     {
       "pantone": "19-3730",
       "name": "gentian-violet",
-      "hex": 544275
+      "hex": "544275"
     },
     {
       "pantone": "19-3850",
@@ -5947,7 +5947,7 @@
     {
       "pantone": "19-3830",
       "name": "astral-aura",
-      "hex": 363151
+      "hex": "363151"
     },
     {
       "pantone": "13-4105",
@@ -6082,7 +6082,7 @@
     {
       "pantone": "19-3940",
       "name": "blue-depths",
-      "hex": 263056
+      "hex": "263056"
     },
     {
       "pantone": "19-3933",
@@ -6102,7 +6102,7 @@
     {
       "pantone": "19-3919",
       "name": "nightshadow-blue",
-      "hex": null
+      "hex": "4e5368"
     },
     {
       "pantone": "19-3928",
@@ -6122,7 +6122,7 @@
     {
       "pantone": "19-3935",
       "name": "deep-cobalt",
-      "hex": 404466
+      "hex": "404466"
     },
     {
       "pantone": "13-4110",
@@ -6242,7 +6242,7 @@
     {
       "pantone": "18-4027",
       "name": "moonlight-blue",
-      "hex": 506886
+      "hex": "506886"
     },
     {
       "pantone": "18-3928",
@@ -6262,7 +6262,7 @@
     {
       "pantone": "19-4027",
       "name": "estate-blue",
-      "hex": 233658
+      "hex": "233658"
     },
     {
       "pantone": "17-4015",
@@ -6362,7 +6362,7 @@
     {
       "pantone": "18-4041",
       "name": "star-sapphire",
-      "hex": 386192
+      "hex": "386192"
     },
     {
       "pantone": "19-4037",
@@ -6392,7 +6392,7 @@
     {
       "pantone": "19-4053",
       "name": "turkish-sea",
-      "hex": 195190
+      "hex": "195190"
     },
     {
       "pantone": "19-4056",
@@ -6452,7 +6452,7 @@
     {
       "pantone": "19-3950",
       "name": "deep-ultramarine",
-      "hex": 384883
+      "hex": "384883"
     },
     {
       "pantone": "19-3952",
@@ -6467,7 +6467,7 @@
     {
       "pantone": "19-4057",
       "name": "true-blue",
-      "hex": null
+      "hex": "1e4477"
     },
     {
       "pantone": "19-3938",
@@ -6537,12 +6537,12 @@
     {
       "pantone": "18-3916",
       "name": "flint-stone",
-      "hex": 677283
+      "hex": "677283"
     },
     {
       "pantone": "18-3910",
       "name": "folkstone-gray",
-      "hex": 626879
+      "hex": "626879"
     },
     {
       "pantone": "14-4206",
@@ -6572,7 +6572,7 @@
     {
       "pantone": "19-4015",
       "name": "blue-graphite",
-      "hex": 323137
+      "hex": "323137"
     },
     {
       "pantone": "19-4013",
@@ -6602,7 +6602,7 @@
     {
       "pantone": "19-4014",
       "name": "ombre-blue",
-      "hex": 434854
+      "hex": "434854"
     },
     {
       "pantone": "19-4019",
@@ -6617,12 +6617,12 @@
     {
       "pantone": "19-3925",
       "name": "patriot-blue",
-      "hex": 363756
+      "hex": "363756"
     },
     {
       "pantone": "19-3810",
       "name": "eclipse",
-      "hex": 343148
+      "hex": "343148"
     },
     {
       "pantone": "19-4025",
@@ -6707,7 +6707,7 @@
     {
       "pantone": "18-4020",
       "name": "captains-blue",
-      "hex": 557088
+      "hex": "557088"
     },
     {
       "pantone": "18-4025",
@@ -6717,7 +6717,7 @@
     {
       "pantone": "18-3918",
       "name": "china-blue",
-      "hex": 546477
+      "hex": "546477"
     },
     {
       "pantone": "17-4320",
@@ -6752,7 +6752,7 @@
     {
       "pantone": "19-4125",
       "name": "majolica-blue",
-      "hex": 274357
+      "hex": "274357"
     },
     {
       "pantone": "12-4609",
@@ -6782,7 +6782,7 @@
     {
       "pantone": "17-4111",
       "name": "citadel",
-      "hex": 748995
+      "hex": "748995"
     },
     {
       "pantone": "18-4215",
@@ -6822,7 +6822,7 @@
     {
       "pantone": "18-4217",
       "name": "bluestone",
-      "hex": 577284
+      "hex": "577284"
     },
     {
       "pantone": "14-4313",
@@ -6992,12 +6992,12 @@
     {
       "pantone": "18-4032",
       "name": "deep-water",
-      "hex": 266691
+      "hex": "266691"
     },
     {
       "pantone": "19-4035",
       "name": "dark-blue",
-      "hex": 305679
+      "hex": "305679"
     },
     {
       "pantone": "12-4607",
@@ -7067,7 +7067,7 @@
     {
       "pantone": "17-4911",
       "name": "arctic",
-      "hex": 648589
+      "hex": "648589"
     },
     {
       "pantone": "12-4806",
@@ -7207,7 +7207,7 @@
     {
       "pantone": "18-4718",
       "name": "hydro",
-      "hex": 426972
+      "hex": "426972"
     },
     {
       "pantone": "15-4707",
@@ -7232,7 +7232,7 @@
     {
       "pantone": "17-4919",
       "name": "teal",
-      "hex": 478589
+      "hex": "478589"
     },
     {
       "pantone": "18-5308",
@@ -7242,7 +7242,7 @@
     {
       "pantone": "18-5612",
       "name": "sagebrush-green",
-      "hex": 567572
+      "hex": "567572"
     },
     {
       "pantone": "16-5806",
@@ -7302,7 +7302,7 @@
     {
       "pantone": "18-4711",
       "name": "stormy-sea",
-      "hex": null
+      "hex": "6e8082"
     },
     {
       "pantone": "18-4510",
@@ -7327,12 +7327,12 @@
     {
       "pantone": "18-5611",
       "name": "dark-forest",
-      "hex": 556962
+      "hex": "556962"
     },
     {
       "pantone": "18-5606",
       "name": "balsam-green",
-      "hex": 576664
+      "hex": "576664"
     },
     {
       "pantone": "19-0312",
@@ -7452,7 +7452,7 @@
     {
       "pantone": "19-4726",
       "name": "atlantic-deep",
-      "hex": 2.74e+57
+      "hex": "274e57"
     },
     {
       "pantone": "15-4717",
@@ -7482,7 +7482,7 @@
     {
       "pantone": "18-4417",
       "name": "tapestry",
-      "hex": 436573
+      "hex": "436573"
     },
     {
       "pantone": "18-4522",
@@ -7652,7 +7652,7 @@
     {
       "pantone": "17-5421",
       "name": "porcelain-green",
-      "hex": 108780
+      "hex": "108780"
     },
     {
       "pantone": "18-5128",
@@ -7707,7 +7707,7 @@
     {
       "pantone": "16-5515",
       "name": "beryl-green",
-      "hex": 619187
+      "hex": "619187"
     },
     {
       "pantone": "17-5513",
@@ -7787,12 +7787,12 @@
     {
       "pantone": "17-5122",
       "name": "latigo-bay",
-      "hex": 379190
+      "hex": "379190"
     },
     {
       "pantone": "17-5117",
       "name": "green-blue-slate",
-      "hex": 358082
+      "hex": "358082"
     },
     {
       "pantone": "18-5121",
@@ -7842,7 +7842,7 @@
     {
       "pantone": "18-5410",
       "name": "silver-pine",
-      "hex": null
+      "hex": "4e6866"
     },
     {
       "pantone": "19-4818",
@@ -7852,17 +7852,17 @@
     {
       "pantone": "19-5408",
       "name": "bistro-green",
-      "hex": 395551
+      "hex": "395551"
     },
     {
       "pantone": "19-5413",
       "name": "jasper",
-      "hex": 335959
+      "hex": "335959"
     },
     {
       "pantone": "18-5315",
       "name": "bayberry",
-      "hex": 255958
+      "hex": "255958"
     },
     {
       "pantone": "19-5414",
@@ -8072,7 +8072,7 @@
     {
       "pantone": "16-5810",
       "name": "green-bay",
-      "hex": null
+      "hex": "7a8e81"
     },
     {
       "pantone": "16-5807",
@@ -8132,7 +8132,7 @@
     {
       "pantone": "18-5622",
       "name": "frosty-spruce",
-      "hex": 578270
+      "hex": "578270"
     },
     {
       "pantone": "18-5621",
@@ -8147,7 +8147,7 @@
     {
       "pantone": "19-5511",
       "name": "hunter-green",
-      "hex": 335749
+      "hex": "335749"
     },
     {
       "pantone": "19-5513",
@@ -8162,12 +8162,12 @@
     {
       "pantone": "18-5718",
       "name": "smoke-pine",
-      "hex": null
+      "hex": "3e6257"
     },
     {
       "pantone": "19-5411",
       "name": "trekking-green",
-      "hex": 355048
+      "hex": "355048"
     },
     {
       "pantone": "18-5913",
@@ -8187,7 +8187,7 @@
     {
       "pantone": "19-4906",
       "name": "green-gables",
-      "hex": 324241
+      "hex": "324241"
     },
     {
       "pantone": "17-0613",
@@ -8217,7 +8217,7 @@
     {
       "pantone": "19-0414",
       "name": "forest-night",
-      "hex": 434237
+      "hex": "434237"
     },
     {
       "pantone": "19-0509",
@@ -8322,7 +8322,7 @@
     {
       "pantone": "16-6008",
       "name": "seagrass",
-      "hex": 959889
+      "hex": "959889"
     },
     {
       "pantone": "17-6206",
@@ -8432,7 +8432,7 @@
     {
       "pantone": "18-0121",
       "name": "elm-green",
-      "hex": 547053
+      "hex": "547053"
     },
     {
       "pantone": "17-6323",
@@ -8447,7 +8447,7 @@
     {
       "pantone": "16-6116",
       "name": "shale-green",
-      "hex": 739072
+      "hex": "739072"
     },
     {
       "pantone": "17-6319",
@@ -8457,7 +8457,7 @@
     {
       "pantone": "17-0123",
       "name": "stone-green",
-      "hex": 6.58e+69
+      "hex": "658e69"
     },
     {
       "pantone": "18-0110",
@@ -8467,12 +8467,12 @@
     {
       "pantone": "17-6219",
       "name": "deep-grass-green",
-      "hex": 558367
+      "hex": "558367"
     },
     {
       "pantone": "17-0235",
       "name": "piquant-green",
-      "hex": 769358
+      "hex": "769358"
     },
     {
       "pantone": "17-0230",
@@ -8482,7 +8482,7 @@
     {
       "pantone": "17-0133",
       "name": "fluorite-green",
-      "hex": 699158
+      "hex": "699158"
     },
     {
       "pantone": "18-0130",
@@ -8492,7 +8492,7 @@
     {
       "pantone": "19-0230",
       "name": "garden-green",
-      "hex": 4.95e+37
+      "hex": "495e37"
     },
     {
       "pantone": "18-0125",
@@ -8522,7 +8522,7 @@
     {
       "pantone": "18-6320",
       "name": "fairway",
-      "hex": 477050
+      "hex": "477050"
     },
     {
       "pantone": "18-0117",
@@ -8542,7 +8542,7 @@
     {
       "pantone": "18-0420",
       "name": "four-leaf-clover",
-      "hex": 616652
+      "hex": "616652"
     },
     {
       "pantone": "18-0317",
@@ -8567,12 +8567,12 @@
     {
       "pantone": "19-0419",
       "name": "rifle-green",
-      "hex": 414832
+      "hex": "414832"
     },
     {
       "pantone": "19-0415",
       "name": "duffel-bag",
-      "hex": 394034
+      "hex": "394034"
     },
     {
       "pantone": "12-0109",
@@ -8707,7 +8707,7 @@
     {
       "pantone": "18-6022",
       "name": "leprechaun",
-      "hex": 378661
+      "hex": "378661"
     },
     {
       "pantone": "17-5923",
@@ -8782,7 +8782,7 @@
     {
       "pantone": "16-0228",
       "name": "jade-green",
-      "hex": 759465
+      "hex": "759465"
     },
     {
       "pantone": "12-0225",
@@ -8947,12 +8947,12 @@
     {
       "pantone": "17-0336",
       "name": "peridot",
-      "hex": 819548
+      "hex": "819548"
     },
     {
       "pantone": "16-0233",
       "name": "meadow-green",
-      "hex": 739957
+      "hex": "739957"
     },
     {
       "pantone": "18-0538",
@@ -9237,7 +9237,7 @@
     {
       "pantone": "17-0636",
       "name": "green-moss",
-      "hex": 857946
+      "hex": "857946"
     },
     {
       "pantone": "16-0726",
@@ -9247,7 +9247,7 @@
     {
       "pantone": "17-0929",
       "name": "fennel-seed",
-      "hex": 998456
+      "hex": "998456"
     },
     {
       "pantone": "16-0632",
@@ -9382,7 +9382,7 @@
     {
       "pantone": "17-0324",
       "name": "epsom",
-      "hex": 849161
+      "hex": "849161"
     },
     {
       "pantone": "18-0332",
@@ -9407,7 +9407,7 @@
     {
       "pantone": "18-0328",
       "name": "cedar-green",
-      "hex": null
+      "hex": "626c3b"
     },
     {
       "pantone": "18-0228",
@@ -9427,7 +9427,7 @@
     {
       "pantone": "18-0525",
       "name": "iguana",
-      "hex": 818455
+      "hex": "818455"
     },
     {
       "pantone": "17-0115",
@@ -9437,12 +9437,12 @@
     {
       "pantone": "18-0422",
       "name": "loden-green",
-      "hex": null
+      "hex": "6d7356"
     },
     {
       "pantone": "18-0426",
       "name": "capulet-olive",
-      "hex": 656344
+      "hex": "656344"
     },
     {
       "pantone": "18-0316",
@@ -9507,7 +9507,7 @@
     {
       "pantone": "17-0525",
       "name": "mosstone",
-      "hex": 858961
+      "hex": "858961"
     },
     {
       "pantone": "17-0620",
@@ -9522,7 +9522,7 @@
     {
       "pantone": "16-0526",
       "name": "cedar",
-      "hex": 9.28e+66
+      "hex": "928e66"
     },
     {
       "pantone": "17-0625",
@@ -9547,7 +9547,7 @@
     {
       "pantone": "18-0430",
       "name": "avocado",
-      "hex": 676232
+      "hex": "676232"
     },
     {
       "pantone": "18-0627",
@@ -9602,27 +9602,27 @@
     {
       "pantone": "18-0521",
       "name": "burnt-olive",
-      "hex": 646049
+      "hex": "646049"
     },
     {
       "pantone": "18-0515",
       "name": "dusty-olive",
-      "hex": 646356
+      "hex": "646356"
     },
     {
       "pantone": "19-0512",
       "name": "ivy-green",
-      "hex": 585442
+      "hex": "585442"
     },
     {
       "pantone": "19-0515",
       "name": "olive-night",
-      "hex": 535040
+      "hex": "535040"
     },
     {
       "pantone": "19-0511",
       "name": "grape-leaf",
-      "hex": 545144
+      "hex": "545144"
     },
     {
       "pantone": "15-3800",
@@ -9652,7 +9652,7 @@
     {
       "pantone": "18-1108",
       "name": "fallen-rock",
-      "hex": 807669
+      "hex": "807669"
     },
     {
       "pantone": "16-0205",
@@ -9667,7 +9667,7 @@
     {
       "pantone": "16-1109",
       "name": "greige",
-      "hex": 928475
+      "hex": "928475"
     },
     {
       "pantone": "17-1311",
@@ -9857,7 +9857,7 @@
     {
       "pantone": "18-1340",
       "name": "potters-clay",
-      "hex": null
+      "hex": "a95136"
     },
     {
       "pantone": "18-1355",
@@ -9922,7 +9922,7 @@
     {
       "pantone": "19-1863",
       "name": "scooter",
-      "hex": 9.41e+34
+      "hex": "941e34"
     },
     {
       "pantone": "19-1555",
@@ -9932,7 +9932,7 @@
     {
       "pantone": "19-1531",
       "name": "sun-dried-tomato",
-      "hex": 752329
+      "hex": "752329"
     },
     {
       "pantone": "19-1337",
@@ -10032,12 +10032,12 @@
     {
       "pantone": "19-3638",
       "name": "tillandsia-purple",
-      "hex": 563474
+      "hex": "563474"
     },
     {
       "pantone": "18-3635",
       "name": "picasso-lily",
-      "hex": 634878
+      "hex": "634878"
     },
     {
       "pantone": "18-3620",
@@ -10062,7 +10062,7 @@
     {
       "pantone": "18-3933",
       "name": "blue-granite",
-      "hex": 717388
+      "hex": "717388"
     },
     {
       "pantone": "19-3815",
@@ -10102,7 +10102,7 @@
     {
       "pantone": "19-3922",
       "name": "sky-captain",
-      "hex": 262934
+      "hex": "262934"
     },
     {
       "pantone": "19-3923",
@@ -10142,17 +10142,17 @@
     {
       "pantone": "19-3953",
       "name": "sodalite-blue",
-      "hex": 253668
+      "hex": "253668"
     },
     {
       "pantone": "19-4022",
       "name": "parisian-night",
-      "hex": 323441
+      "hex": "323441"
     },
     {
       "pantone": "19-3964",
       "name": "monaco-blue",
-      "hex": 274374
+      "hex": "274374"
     },
     {
       "pantone": "18-4034",
@@ -10207,7 +10207,7 @@
     {
       "pantone": "19-4033",
       "name": "poseidon",
-      "hex": 123955
+      "hex": "123955"
     },
     {
       "pantone": "18-4434",
@@ -10267,7 +10267,7 @@
     {
       "pantone": "16-5101",
       "name": "wet-weather",
-      "hex": 929090
+      "hex": "929090"
     },
     {
       "pantone": "17-4014",
@@ -10277,7 +10277,7 @@
     {
       "pantone": "18-4016",
       "name": "december-sky",
-      "hex": 767275
+      "hex": "767275"
     },
     {
       "pantone": "19-3900",
@@ -10307,7 +10307,7 @@
     {
       "pantone": "17-1503",
       "name": "storm-front",
-      "hex": 787376
+      "hex": "787376"
     },
     {
       "pantone": "18-3907",
@@ -10367,7 +10367,7 @@
     {
       "pantone": "19-3910",
       "name": "iron-gate",
-      "hex": null
+      "hex": "4e5055"
     },
     {
       "pantone": "19-3907",
@@ -10377,7 +10377,7 @@
     {
       "pantone": "19-0201",
       "name": "asphalt",
-      "hex": 434447
+      "hex": "434447"
     },
     {
       "pantone": "16-4703",
@@ -10412,12 +10412,12 @@
     {
       "pantone": "19-5406",
       "name": "pine-grove",
-      "hex": 213631
+      "hex": "213631"
     },
     {
       "pantone": "19-6050",
       "name": "eden",
-      "hex": 2.64e+38
+      "hex": "264e38"
     },
     {
       "pantone": "18-6030",
@@ -10442,7 +10442,7 @@
     {
       "pantone": "19-0307",
       "name": "climbing-ivy",
-      "hex": 444940
+      "hex": "444940"
     },
     {
       "pantone": "19-0840",
@@ -10452,7 +10452,7 @@
     {
       "pantone": "19-0910",
       "name": "mulch",
-      "hex": 433937
+      "hex": "433937"
     },
     {
       "pantone": "19-1106",
@@ -10477,7 +10477,7 @@
     {
       "pantone": "19-1103",
       "name": "espresso",
-      "hex": 363031
+      "hex": "363031"
     },
     {
       "pantone": "19-4008",
@@ -10982,7 +10982,7 @@
     {
       "pantone": "17-1105",
       "name": "roasted-cashew",
-      "hex": 918579
+      "hex": "918579"
     },
     {
       "pantone": "17-1108",
@@ -11007,7 +11007,7 @@
     {
       "pantone": "17-1314",
       "name": "sepia-tint",
-      "hex": 897560
+      "hex": "897560"
     },
     {
       "pantone": "17-1345",
@@ -11042,7 +11042,7 @@
     {
       "pantone": "17-2411",
       "name": "toadstool",
-      "hex": 988088
+      "hex": "988088"
     },
     {
       "pantone": "17-3240",
@@ -11067,7 +11067,7 @@
     {
       "pantone": "17-3914",
       "name": "sharkskin",
-      "hex": 838487
+      "hex": "838487"
     },
     {
       "pantone": "17-3929",
@@ -11082,7 +11082,7 @@
     {
       "pantone": "17-4016",
       "name": "gray-flannel",
-      "hex": 848182
+      "hex": "848182"
     },
     {
       "pantone": "17-4028",
@@ -11147,7 +11147,7 @@
     {
       "pantone": "18-1028",
       "name": "emperador",
-      "hex": 684832
+      "hex": "684832"
     },
     {
       "pantone": "18-1049",
@@ -11162,12 +11162,12 @@
     {
       "pantone": "18-1155",
       "name": "sugar-almond",
-      "hex": 935529
+      "hex": "935529"
     },
     {
       "pantone": "18-1325",
       "name": "spiced-apple",
-      "hex": 783937
+      "hex": "783937"
     },
     {
       "pantone": "18-1440",
@@ -11177,7 +11177,7 @@
     {
       "pantone": "18-1506",
       "name": "plum-truffle",
-      "hex": 675657
+      "hex": "675657"
     },
     {
       "pantone": "18-1541",
@@ -11242,7 +11242,7 @@
     {
       "pantone": "18-3120",
       "name": "willowherb",
-      "hex": null
+      "hex": "8f4584"
     },
     {
       "pantone": "18-3340",
@@ -11252,7 +11252,7 @@
     {
       "pantone": "18-3521",
       "name": "plum-jam",
-      "hex": 624076
+      "hex": "624076"
     },
     {
       "pantone": "18-3530",
@@ -11287,7 +11287,7 @@
     {
       "pantone": "18-3929",
       "name": "blue-horizon",
-      "hex": null
+      "hex": "5c609f"
     },
     {
       "pantone": "18-3950",
@@ -11342,7 +11342,7 @@
     {
       "pantone": "19-0403",
       "name": "sea-turtle",
-      "hex": null
+      "hex": "655f55"
     },
     {
       "pantone": "19-0413",
@@ -11382,7 +11382,7 @@
     {
       "pantone": "19-1233",
       "name": "tiramisu",
-      "hex": 634235
+      "hex": "634235"
     },
     {
       "pantone": "19-1234",
@@ -11467,7 +11467,7 @@
     {
       "pantone": "19-3930",
       "name": "odyssey-gray",
-      "hex": 434452
+      "hex": "434452"
     },
     {
       "pantone": "19-4003",
@@ -11492,7 +11492,7 @@
     {
       "pantone": "19-4038",
       "name": "gibraltar-sea",
-      "hex": 123850
+      "hex": "123850"
     },
     {
       "pantone": "19-4045",
@@ -11502,7 +11502,7 @@
     {
       "pantone": "19-4048",
       "name": "baleine-blue",
-      "hex": 155187
+      "hex": "155187"
     },
     {
       "pantone": "19-4055",
@@ -11537,7 +11537,7 @@
     {
       "pantone": "19-5030",
       "name": "sea-moss",
-      "hex": 254445
+      "hex": "254445"
     },
     {
       "pantone": "19-5230",
