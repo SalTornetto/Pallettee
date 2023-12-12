@@ -130,6 +130,11 @@
                     </div>
                   </a>
                 </div>
+                <div class="paragraph-large mg-bottom-32px text-center">
+                  <p style="margin-top: 50px">
+                    Not au
+                  </p>
+                </div>
               </div>
               <div class="mg-bottom-180px">
                 <div class="grid-2-columns _1fr---1-52fr gap-row-4px">
@@ -138,7 +143,7 @@
                     <div id="color-info">
                       <div>
                         <label class="color-box" id="hex-value">
-                          Hex:
+                          Hex:&emsp;&emsp;
                           <span id="hex-code"></span>
 
                           <svg
@@ -149,7 +154,7 @@
                             fill="currentColor"
                             class="bi bi-copy"
                             viewBox="0 0 16 16"
-                            onclick="copyToClipboard('hex-value')"
+                            onmousedown="copyToClipboard('hex-value')"
                           >
                             <path
                               fill-rule="evenodd"
@@ -160,7 +165,8 @@
                       </div>
                       <div>
                         <label class="color-box" id="rgb-value">
-                          RGB:
+                          RGB:&emsp;&emsp;
+                          <span id="rgb-code"></span>
                           <svg
                             class="copy-button"
                             xmlns="http://www.w3.org/2000/svg"
@@ -180,7 +186,8 @@
                       </div>
                       <div>
                         <label class="color-box" id="cmyk-value">
-                          CMYK:
+                          CMYK:&emsp;
+                          <span id="cmyk-code"></span>
                           <svg
                             class="copy-button"
                             xmlns="http://www.w3.org/2000/svg"
@@ -201,20 +208,16 @@
                       </div>
                     </div>
                   </div>
-                  <div
-                    id="default-image"
-                    data-w-id="b8af0d7b-4820-8ea5-2701-a4a4169f1aa6"
-                    style="opacity: 0"
-                    class="position-relative---z-index-1"
-                  >
+                  <div>
                     <img
                       id="uploadedImage"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 94vw, (max-width: 1439px) 56vw, 616.4500122070312px"
                       src=".\assets\Template.jpg"
                       class="width-100"
-                      onclick="pickColorFromImage()"
-                      style="cursor: crosshair;"
+                      onmousedown="pickColorFromImage()"
+                      style="cursor: crosshair"
                     />
+                    <div id="colorBubble"></div>
                   </div>
                 </div>
               </div>

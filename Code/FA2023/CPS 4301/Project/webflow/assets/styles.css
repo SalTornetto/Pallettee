@@ -2406,9 +2406,6 @@ figcaption {
   
 }
 
-.tabbed-hex::before {
-  content: '\00a0\00a0\00a0\00a0\00a0\00a0';
-}
 
 
 .color-box {
@@ -2421,7 +2418,6 @@ figcaption {
   font-size: 18px;
 }
 
-/* ... (rest of your CSS) ... */
 
 .card {
   border: 1px solid var(--secondary--color-4);
@@ -2438,7 +2434,7 @@ figcaption {
   box-shadow: 0 4px 14px 0 var(--general--shadow-01);
   border-radius: 10px;
   height: 350px;
-  transition: color 0.3s;
+  transition: 0.3s;
   /* margin-right: 15px; */
 }
 
@@ -5172,6 +5168,11 @@ figcaption {
     padding-left: 24px;
     padding-right: 24px;
   }
+}
+
+body {
+  background-image: url(backdrop.svg);
+  background-size: 70%;
 }
 
 #w-node-fb514822-0e5c-02dc-94d8-e2e50efe10fb-c55955bd,
