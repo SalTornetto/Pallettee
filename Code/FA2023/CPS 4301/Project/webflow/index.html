@@ -8,6 +8,8 @@
   <head>
     <meta charset="utf-8" />
     <link href="./assets/styles.css" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/painter" rel="stylesheet">
+                
     <script type="text/javascript">
       !(function (o, c) {
         var n = c.documentElement,
@@ -20,6 +22,7 @@
     </script>
   </head>
   <body>
+    <!-- <div style="position:absolute; top: 0; left: 0; width: 100%; height: 85%; z-index: -1;"><img src="./assets/backdrop.svg" style="width: 100%; height: 100%; object-fit: cover;"></div> -->
     <div style="opacity: 0" class="page-wrapper">
       <div class="dashboard-main-section">
         <div class="dashboard-content">
@@ -28,13 +31,15 @@
               <div class="mg-bottom-140px">
                 <div class="text-center mg-bottom-48px">
                   <div class="inner-container _794px center">
-                    <h1
+                    <h2
                       data-w-id="8f1442fd-5729-fb94-cef7-96c4c4b9f370"
-                      style="opacity: 0"
-                      class="display-2"
+                        style="opacity: 0; font-family: 'Painter', sans-serif;
+                        "
+                        class="display-2"
                     >
                       Pallettee
-                    </h1>
+                    </h2>
+                    <h1 class="display-2"> Find Any Colors For Your Designs  </h1>
                     <p class="paragraph-large mg-bottom-32px">
                       Need to find the hexcode of a color? Create a color
                       palette? Match to a Pantone color? We got you covered!
@@ -66,7 +71,7 @@
                         />
                       </div>
                       <div class="card-sales-home-content">
-                        <div class="text-400 medium">
+                        <div class="text-400 medium" style="transition: height 2s ;" >
                           Generate color Palette
                         </div>
                       </div></a
@@ -132,7 +137,7 @@
                 </div>
                 <div class="paragraph-large mg-bottom-32px text-center">
                   <p style="margin-top: 50px">
-                    Not au
+                    Some text will go here
                   </p>
                 </div>
               </div>
@@ -162,6 +167,7 @@
                             />
                           </svg>
                         </label>
+                        
                       </div>
                       <div>
                         <label class="color-box" id="rgb-value">
@@ -204,7 +210,7 @@
                             />
                           </svg>
                         </label>
-                        <div class="color-square"></div>
+                        <div id="colorSquare" class="color-square"></div>
                       </div>
                     </div>
                   </div>

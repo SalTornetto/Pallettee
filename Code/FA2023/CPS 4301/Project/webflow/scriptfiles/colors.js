@@ -2,7 +2,6 @@ generateColorPalette = () => {
   const input = document.getElementById("imageInput");
   const colorPalette = document.getElementById("colorPalette");
   const uploadedImage = document.getElementById("uploadedImage");
-  // colorPalette.innerHTML = ''; // Clear previous color
 
   if (input.files && input.files[0]) {
     const reader = new FileReader();
@@ -60,8 +59,28 @@ clearContent = (elementId) => {
   }
 };
 
-// Usage
 
+const hasSupport = () => ('EyeDropper' in window);
+
+const imageElement = document.getElementById("uploadedImage");
+
+imageElement.addEventListener("mouseover", () => {
+  if (hasSupport) {
+    const eyeDropper = new window.EyeDropper();
+
+    eyeDropper
+      .open()
+      .then((result) => {
+        const color = result.sRGBHex;
+        // Do something with the color
+      })
+      .catch((e) => {
+        console.error(e);
+      });
+  } else {
+    console.warn("No Support: This browser does not support the EyeDropper API yet!");
+  }
+});
 
 pickColorFromImage = () => {
   const uploadedImage = document.getElementById("uploadedImage");
