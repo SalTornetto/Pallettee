@@ -182,10 +182,12 @@ function setCardColor(hexColor, rgbColor, cmykColor){
   const hexval = document.getElementById("hex-code");
   const rgbval = document.getElementById("rgb-code");
   const cmykval = document.getElementById("cmyk-code");
+  const pantoneval = document.getElementById("pantone-code");
 
   clearContent("hex-code");
   clearContent("rgb-code");
   clearContent("cmyk-code");
+  clearContent("pantone-code");
 
   // Display the new hex code with a class for styling
   const hexCode = document.createElement("span");
@@ -201,11 +203,18 @@ function setCardColor(hexColor, rgbColor, cmykColor){
   const cmykCode = document.createElement("span");
   cmykCode.innerText = cmykColor;
   cmykval.appendChild(cmykCode);
+
+  //display the new pantone color
+  pantone = closestPantoneSearch(hexColor.slice(1)); //remove the # sign
+  const pantoneCode = document.createElement("span");
+
+  let formattedPantone = pantone.name.replace(/(^| |-)([a-z])/g, (p2) => {
+    return p2.toUpperCase();})
+    formattedPantone = formattedPantone.replace(/-/g, " ");
+
+  pantoneCode.innerText = pantone.pantone + ": " + formattedPantone;
+  pantoneval.appendChild(pantoneCode);
 }
-
-
-
-
 
 
   

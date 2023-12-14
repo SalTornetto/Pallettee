@@ -1,9 +1,19 @@
 //pantone.js 
 
-fetch('../Code/FA2023/CPS 4301/Project/webflow/assets/pantone_colors.json').then((response) => response.json()).then((json) => {
-     
-//const obj = JSON.parse();
-var pantone_array = json;
+// this file needs to let the entire fetch statemet run which useally adds a couple of socnds to the response time but will return fine after the first load.
+let pantone_array = []; // Declare the array outside the fetch function
+
+fetch('./assets/pantone_colors.json').then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  }).then(data => {
+    // Populate the array inside the fetch success callback
+    pantone_array = data;
+  }).catch(error => {
+    console.error('There was a problem with the fetch operation:', error);
+  });
 
 
 //Comparer Function    
@@ -19,21 +29,10 @@ function GetSortOrder(prop) {
 }    
     
 
-//pantone_array.sort(GetSortOrder("hex")); //Pass the attribute to be sorted on 
-//item = 2309; //last item in the pantone array
-//console.log(pantone_array[item].name + ": " + pantone_array[item].hex + ": " + pantone_array[item].pantone);   
-//pantone_array.sort(GetSortOrder("pantone")); //Pass the attribute to be sorted on 
-//console.log(pantone_array[item].name + ": " + pantone_array[item].hex + ": " + pantone_array[item].pantone); 
-//pantone_array.sort(GetSortOrder("name")); //Pass the attribute to be sorted on 
-//console.log(pantone_array[item].name + ": " + pantone_array[item].hex + ": " + pantone_array[item].pantone); 
-   
-    
-
-
 //Binary Search Function - im unsure if this will ever be used in our prject but it was hard to develop just in case
 
 //Array must be sorted
-pantone_array.sort(GetSortOrder("hex"));
+//pantone_array.sort(GetSortOrder("hex"));
 
 function binarySearch(arr, searchHex) {
     var length = arr.length;
@@ -64,11 +63,6 @@ function binarySearch(arr, searchHex) {
     
 }//end binary search function
 
-//binarySearch(pantone_array, "004b8d");//lowest
-//binarySearch(pantone_array, "ffda29");//highest
-//binarySearch(pantone_array, "000000");//test
-
-
 
 // Comparing a search hex to the list and returning the closest value
 //Steps
@@ -97,9 +91,7 @@ function closestPantoneSearch(searchHex) {
         i++;
     }
 
-     return pantone_array[minIndex];
-
-
+    return pantone_array[minIndex];
 
 }//end clsoest pantone search
 
@@ -112,7 +104,6 @@ function colorDistance(hex1, hex2){
     //attempt at a weighted approache
     distance = Math.sqrt(Math.pow((rgb2.r - rgb1.r)*0.28, 2) + Math.pow((rgb2.g - rgb1.g)*0.58, 2) + Math.pow((rgb2.b - rgb1.b)*0.24, 2));
    
-
     //distance = Math.sqrt(Math.pow((rgb2.r - rgb1.r)*0.39, 2) + Math.pow((rgb2.g - rgb1.g)*0.59, 2) + Math.pow((rgb2.b - rgb1.b)*0.11, 2));
 
     return distance;
@@ -128,18 +119,3 @@ function hexToRgb(hex) {
   }
 
 
-
-// result1 = closestPantoneSearch("104b8d");//right
-// console.log(result1.name + ": " + result1.hex);
-// result1 = closestPantoneSearch("F3C349");//wrong
-// console.log(result1.name + ": " + result1.hex);
-// result1 = closestPantoneSearch("AC3F6F");//gets it correct
-// console.log(result1.name + ": " + result1.hex);
-// result1 = closestPantoneSearch("AC9B6F");//pretty good
-// console.log(result1.name + ": " + result1.hex);
-
-
-
-})//end fetch
-
-//ensure that all your manipulations of the pantone arrays are done within the fetch fucnction otherwise they will throw errors
