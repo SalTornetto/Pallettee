@@ -41,6 +41,12 @@ generateColorPalette = () => {
                     colorBox.style.backgroundColor = "#"+hexColor;
                     colorBox.style.width = Math.round(100/colorCount)+"%";
                     colorBox.innerText = hexColor;
+                    // console.log();
+                    rgb = hexToRgb(hexColor);
+                    rgbColor = `rgb(${rgb.r}, ${rgb.b}, ${rgb.g})`;
+                    cmykColor = rgbToCmyk(rgbColor);
+                    //colorBox.onclick.apply(setCardColor('#'+hexColor, rgbColor, cmykColor));
+                    //console.log(hexToRgb(hexColor));
                     colorPalette.appendChild(colorBox); 
                 }
                 
@@ -50,6 +56,7 @@ generateColorPalette = () => {
   
         reader.readAsDataURL(input.files[0]);
     }
+
   };
   
   
@@ -138,9 +145,9 @@ generateColorPalette = () => {
   
   pickColorFromImage = () => {
     const uploadedImage = document.getElementById("uploadedImage");
-    const hexval = document.getElementById("hex-code");
-    const rgbval = document.getElementById("rgb-code");
-    const cmykval = document.getElementById("cmyk-code");
+    // const hexval = document.getElementById("hex-code");
+    // const rgbval = document.getElementById("rgb-code");
+    // const cmykval = document.getElementById("cmyk-code");
   
     uploadedImage.addEventListener("click", function (event) {
       const canvas = document.createElement("canvas");
@@ -161,26 +168,43 @@ generateColorPalette = () => {
       const hexColor = rgbToHex(pixelData);
       const rgbColor = `rgb(${pixelData[0]}, ${pixelData[1]}, ${pixelData[2]})`;
       const cmykColor = rgbToCmyk(pixelData);
-      clearContent("hex-code");
-      clearContent("rgb-code");
-      clearContent("cmyk-code");
-  
-      // Display the new hex code with a class for styling
-      const hexCode = document.createElement("span");
-      hexCode.innerText = hexColor;
-      hexval.appendChild(hexCode);
-  
-      // Display the new rgb code
-      const rgbCode = document.createElement("span");
-      rgbCode.innerText = rgbColor;
-      rgbval.appendChild(rgbCode);
-  
-      // Display the new cmyk code
-      const cmykCode = document.createElement("span");
-      cmykCode.innerText = cmykColor;
-      cmykval.appendChild(cmykCode);
+
+      console.log(hexColor, rgbColor, cmykColor);
+      setCardColor(hexColor, rgbColor, cmykColor);
     });
   };
+
+
+function setCardColor(hexColor, rgbColor, cmykColor){
+  const hexval = document.getElementById("hex-code");
+  const rgbval = document.getElementById("rgb-code");
+  const cmykval = document.getElementById("cmyk-code");
+
+  clearContent("hex-code");
+  clearContent("rgb-code");
+  clearContent("cmyk-code");
+
+  // Display the new hex code with a class for styling
+  const hexCode = document.createElement("span");
+  hexCode.innerText = hexColor;
+  hexval.appendChild(hexCode);
+
+  // Display the new rgb code
+  const rgbCode = document.createElement("span");
+  rgbCode.innerText = rgbColor;
+  rgbval.appendChild(rgbCode);
+
+  // Display the new cmyk code
+  const cmykCode = document.createElement("span");
+  cmykCode.innerText = cmykColor;
+  cmykval.appendChild(cmykCode);
+}
+
+
+
+
+
+
   
   // Convert RGB to CMYK
   rgbToCmyk = (pixelData) => {
