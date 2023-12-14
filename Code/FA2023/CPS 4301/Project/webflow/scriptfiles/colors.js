@@ -45,7 +45,7 @@ generateColorPalette = () => {
         }
 
         // Set the flex-direction to column for vertical rectangles
-        colorPalette.style.flexDirection = "column";
+        //colorPalette.style.flexDirection = "column";
       };
     };
 

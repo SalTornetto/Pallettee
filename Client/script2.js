@@ -42,7 +42,7 @@ function generateColorPalette() {
 
 // console.log("||||||||||||||||||||||||||||||||||||");
 
-                const colorCount = 32; // Number of colors to extract
+                const colorCount = 5; // Number of colors to extract
 
                 // Extract dominant colors using a simple algorithm
                 //const colorMap = {};
