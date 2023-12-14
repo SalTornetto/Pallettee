@@ -35,7 +35,7 @@ generateColorPalette = () => {
 
                 for (let i = 0; i < colorCount; i++) {
                     const hexColor = numbersToHex(result.centroids[i]);
-                    console.log(typeof(hexColor));
+                    //console.log(typeof(hexColor));
                     const colorBox = document.createElement('div');
                     colorBox.className = 'colorBox';
                     colorBox.style.backgroundColor = "#"+hexColor;
@@ -45,6 +45,7 @@ generateColorPalette = () => {
                     rgb = hexToRgb(hexColor);
                     rgbColor = `rgb(${rgb.r}, ${rgb.b}, ${rgb.g})`;
                     cmykColor = rgbToCmyk(rgbColor);
+                    //console.log(cmykColor);
                     colorBox.addEventListener('click', function () {
                       setCardColor('#'+hexColor, rgbColor, cmykColor); // Call abc123() function when the color box is clicked
                     });
@@ -172,7 +173,6 @@ generateColorPalette = () => {
       const rgbColor = `rgb(${pixelData[0]}, ${pixelData[1]}, ${pixelData[2]})`;
       const cmykColor = rgbToCmyk(pixelData);
 
-      console.log(hexColor, rgbColor, cmykColor);
       setCardColor(hexColor, rgbColor, cmykColor);
     });
   };
