@@ -1419,3 +1419,14 @@ label {
 }
 
 /* #080f25 */
+
+.colorPalette {
+  padding: 20px;
+}
+
+.colorBox {
+  float: left;
+  padding: 20px; 
+  color: #FFFFFF;
+  
+}  
