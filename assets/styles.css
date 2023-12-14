@@ -801,7 +801,7 @@ label {
   background-color: var(--neutral--400);
   box-shadow: 0 4px 14px 0 var(--general--shadow-01);
   border-radius: 30px;
-  height: 400px;
+  height: 350px;
   transition: 0.3s;
   white-space: nowrap;
   /* margin-right: 15px; */
@@ -814,16 +814,14 @@ label {
 
 #cmyk-value,
 #rgb-value,
-#hex-value,
-#pantone-value{
+#hex-value{
   transition: color 0.3s;
 }
 
 
 #cmyk-value:hover,
 #rgb-value:hover,
-#hex-value:hover,
-#pantone-value:hover {
+#hex-value:hover {
   color: var(--accent--primary-1);
   transition: color 0.3s;
 }
