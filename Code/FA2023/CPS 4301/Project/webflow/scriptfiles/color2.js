@@ -35,21 +35,20 @@ generateColorPalette = () => {
 
                 for (let i = 0; i < colorCount; i++) {
                     const hexColor = numbersToHex(result.centroids[i]);
-                    //console.log(typeof(hexColor));
                     const colorBox = document.createElement('div');
                     colorBox.className = 'colorBox';
                     colorBox.style.backgroundColor = "#"+hexColor;
                     colorBox.style.width = Math.round(100/colorCount)+"%";
                     colorBox.innerText = hexColor;
-                    // console.log();
-                    rgb = hexToRgb(hexColor);
+                    rgb = hexToRgb("#"+hexColor);
                     rgbColor = `rgb(${rgb.r}, ${rgb.b}, ${rgb.g})`;
                     cmykColor = rgbToCmyk(rgbColor);
-                    //console.log(cmykColor);
                     colorBox.addEventListener('click', function () {
-                      setCardColor('#'+hexColor, rgbColor, cmykColor); // Call abc123() function when the color box is clicked
+                      setColorSquare('#'+hexColor);
+                      setCardColorHex('#'+hexColor);
                     });
-                    //colorBox.onclick.apply(setCardColor('#'+hexColor, rgbColor, cmykColor));
+                    //console.log(colorBox.style.backgroundColor);
+                    //colorBox.onclick.apply(setCardColorHex('#'+hexColor, rgbColor, cmykColor));
                     //console.log(hexToRgb(hexColor));
                     colorPalette.appendChild(colorBox); 
                 }
@@ -74,7 +73,22 @@ generateColorPalette = () => {
     return '#' + hex(match[1]) + hex(match[2]) + hex(match[3]);
   }
   
-  function hexToRgb(hex) {
+//   function hexToRgb(hex) {
+//     var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+//     return result ? {
+//       r: parseInt(result[1], 16),
+//       g: parseInt(result[2], 16),
+//       b: parseInt(result[3], 16)
+//     } : null;
+//   }
+
+function hexToRgb(hex) {
+    // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
+    var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+    hex = hex.replace(shorthandRegex, function(m, r, g, b) {
+      return r + r + g + g + b + b;
+    });
+  
     var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
     return result ? {
       r: parseInt(result[1], 16),
@@ -92,7 +106,7 @@ generateColorPalette = () => {
   }
   
   function numbersToHex(arr) {
-    return arr.map(num => Math.round(num).toString(16).padStart(2, '0')).join('').toUpperCase();
+    return arr.map(num => Math.round(num).toString(16).padStart(2, '0')).join('');
   }
   
   function groupRgba(arr) {
@@ -173,12 +187,15 @@ generateColorPalette = () => {
       const rgbColor = `rgb(${pixelData[0]}, ${pixelData[1]}, ${pixelData[2]})`;
       const cmykColor = rgbToCmyk(pixelData);
 
+      setColorSquare(hexColor);
       setCardColor(hexColor, rgbColor, cmykColor);
+      
     });
   };
 
 
-function setCardColor(hexColor, rgbColor, cmykColor,pantoneColor){
+// function setCardColor(hexColor, rgbColor, cmykColor,pantoneColor){
+function setCardColor(hexColor, rgbColor, cmykColor){
   const hexval = document.getElementById("hex-code");
   const rgbval = document.getElementById("rgb-code");
   const cmykval = document.getElementById("cmyk-code");
@@ -210,7 +227,6 @@ function setCardColor(hexColor, rgbColor, cmykColor,pantoneColor){
   pantone = closestPantoneSearch(hexColor.slice(1)); //remove the # sign
   const pantoneCode = document.createElement("span");
   const pantoneName = document.createElement("span");
-
   let formattedPantone = pantone.name.replace(/(^| |-)([a-z])/g, (p2) => {
     return p2.toUpperCase();})
     formattedPantone = formattedPantone.replace(/-/g, " ");
@@ -223,6 +239,22 @@ function setCardColor(hexColor, rgbColor, cmykColor,pantoneColor){
 }
 
 
+function setCardColorHex(hexColor){
+    rgb = hexToRgb(hexColor);
+    rgbColor = `rgb(${rgb.r}, ${rgb.b}, ${rgb.g})`;
+    rgbData = [rgb.r,rgb.g,rgb.b,255]
+    cmykColor = rgbToCmyk(rgbData);
+    setCardColor(hexColor, rgbColor, cmykColor);
+};
+
+function setColorSquare(hex){
+    colorSquare.innerHTML = '';
+    colorSquareChild = document.createElement('div');
+    colorSquareChild.className = 'color-square';
+    colorSquareChild.style.backgroundColor = hex;
+    colorSquare.appendChild(colorSquareChild);
+
+}
   
   // Convert RGB to CMYK
   rgbToCmyk = (pixelData) => {
@@ -261,6 +293,11 @@ function setCardColor(hexColor, rgbColor, cmykColor,pantoneColor){
         break;
         case "pantone-value":
         codeElement = document.getElementById("pantone-code");
+        // let pantoneCode = document.getElementById("pantone-code");
+        // let pantoneName = document.getElementById("pantone-name");
+        // console.log(pantoneCode);
+        // console.log(pantoneName);
+        // codeElement = pantoneCode + " " + pantoneName;
         break;
       default:
         return; // If codeType is not recognized, do nothing
