@@ -60,27 +60,6 @@ clearContent = (elementId) => {
 };
 
 
-const hasSupport = () => ('EyeDropper' in window);
-
-const imageElement = document.getElementById("uploadedImage");
-
-imageElement.addEventListener("mouseover", () => {
-  if (hasSupport) {
-    const eyeDropper = new window.EyeDropper();
-
-    eyeDropper
-      .open()
-      .then((result) => {
-        const color = result.sRGBHex;
-        // Do something with the color
-      })
-      .catch((e) => {
-        console.error(e);
-      });
-  } else {
-    console.warn("No Support: This browser does not support the EyeDropper API yet!");
-  }
-});
 
 pickColorFromImage = () => {
   const uploadedImage = document.getElementById("uploadedImage");
@@ -101,8 +80,9 @@ pickColorFromImage = () => {
       uploadedImage.height
     );
 
-    const x = event.offsetX;
-    const y = event.offsetY;
+    const boundingRect = uploadedImage.getBoundingClientRect();
+    const x = event.clientX - boundingRect.left + 10; // Offset the x-coordinate by 10 pixels
+    const y = event.clientY - boundingRect.top;
     const pixelData = context.getImageData(x, y, 1, 1).data;
     const hexColor = rgbToHex(pixelData);
     const rgbColor = `rgb(${pixelData[0]}, ${pixelData[1]}, ${pixelData[2]})`;
@@ -127,6 +107,8 @@ pickColorFromImage = () => {
     cmykval.appendChild(cmykCode);
   });
 };
+
+
 
 // Convert RGB to CMYK
 rgbToCmyk = (pixelData) => {

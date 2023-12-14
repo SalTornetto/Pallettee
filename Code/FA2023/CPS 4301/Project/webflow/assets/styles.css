@@ -849,6 +849,7 @@ label {
   transition: color 0.3s;
 }
 
+
 .card.sales-home-page {
   color: var(--neutral--100);
   object-fit: cover;
@@ -880,6 +881,13 @@ label {
 }
 
 .display-2 {
+  color: var(--neutral--600);
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 1.263em;
+}
+
+.display-2sub {
   color: var(--neutral--600);
   font-size: 38px;
   font-weight: 600;
@@ -1215,7 +1223,7 @@ label {
   }
 
   .display-2 {
-    font-size: 32px;
+    font-size: 48px;
   }
 
   .grid-3-columns {
