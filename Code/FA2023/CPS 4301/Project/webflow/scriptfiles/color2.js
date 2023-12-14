@@ -45,6 +45,9 @@ generateColorPalette = () => {
                     rgb = hexToRgb(hexColor);
                     rgbColor = `rgb(${rgb.r}, ${rgb.b}, ${rgb.g})`;
                     cmykColor = rgbToCmyk(rgbColor);
+                    colorBox.addEventListener('click', function () {
+                      setCardColor('#'+hexColor, rgbColor, cmykColor); // Call abc123() function when the color box is clicked
+                    });
                     //colorBox.onclick.apply(setCardColor('#'+hexColor, rgbColor, cmykColor));
                     //console.log(hexToRgb(hexColor));
                     colorPalette.appendChild(colorBox); 
